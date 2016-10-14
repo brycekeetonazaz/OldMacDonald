@@ -1,10 +1,10 @@
-class Cow implements Animal 
+class Cow implements Animal
 {     
      //your code here
 	protected String myType;
 	protected String mySound;
 
-	public Cow(String type,String name, String sound)
+	public Cow(String type, String sound)
 	{
 		myType = type;
 		mySound = sound;
